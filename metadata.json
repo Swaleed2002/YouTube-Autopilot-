@@ -1,0 +1,6 @@
+{
+  "name": "Faceless Autopilot",
+  "description": "Mobile-controlled faceless YouTube production and automation system with AI research, script generation, voiceover, rendering, budget tracking, and scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

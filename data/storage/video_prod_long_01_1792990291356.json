@@ -1,0 +1,1127 @@
+{
+  "id": "prod_long_01",
+  "title": "The Architecture of SQLite: Most Deployed Software in History",
+  "format": "long",
+  "aspectRatio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 300,
+  "audioUrl": "/api/storage/voice_1792990287934_prod_long_01.wav",
+  "videoUrl": "/api/storage/video_prod_long_01.mp4",
+  "thumbnailUrl": "/api/storage/thumb_prod_long_01_1792990287947.svg",
+  "subtitles": [
+    {
+      "id": 1,
+      "start": 0.2,
+      "end": 8.2,
+      "text": "Chapter 1: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 0.2,
+          "end": 0.64
+        },
+        {
+          "word": "1:",
+          "start": 0.64,
+          "end": 1.09
+        },
+        {
+          "word": "Deep",
+          "start": 1.09,
+          "end": 1.53
+        },
+        {
+          "word": "dive",
+          "start": 1.53,
+          "end": 1.98
+        },
+        {
+          "word": "into",
+          "start": 1.98,
+          "end": 2.42
+        },
+        {
+          "word": "architectural",
+          "start": 2.42,
+          "end": 2.87
+        },
+        {
+          "word": "design",
+          "start": 2.87,
+          "end": 3.31
+        },
+        {
+          "word": "principles,",
+          "start": 3.31,
+          "end": 3.76
+        },
+        {
+          "word": "scaling",
+          "start": 3.76,
+          "end": 4.2
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 4.2,
+          "end": 4.64
+        },
+        {
+          "word": "and",
+          "start": 4.64,
+          "end": 5.09
+        },
+        {
+          "word": "distributed",
+          "start": 5.09,
+          "end": 5.53
+        },
+        {
+          "word": "memory",
+          "start": 5.53,
+          "end": 5.98
+        },
+        {
+          "word": "management",
+          "start": 5.98,
+          "end": 6.42
+        },
+        {
+          "word": "in",
+          "start": 6.42,
+          "end": 6.87
+        },
+        {
+          "word": "modern",
+          "start": 6.87,
+          "end": 7.31
+        },
+        {
+          "word": "computing",
+          "start": 7.31,
+          "end": 7.76
+        },
+        {
+          "word": "systems.",
+          "start": 7.76,
+          "end": 8.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 8.3,
+      "end": 16.3,
+      "text": "Chapter 2: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 8.3,
+          "end": 8.74
+        },
+        {
+          "word": "2:",
+          "start": 8.74,
+          "end": 9.19
+        },
+        {
+          "word": "Deep",
+          "start": 9.19,
+          "end": 9.63
+        },
+        {
+          "word": "dive",
+          "start": 9.63,
+          "end": 10.08
+        },
+        {
+          "word": "into",
+          "start": 10.08,
+          "end": 10.52
+        },
+        {
+          "word": "architectural",
+          "start": 10.52,
+          "end": 10.97
+        },
+        {
+          "word": "design",
+          "start": 10.97,
+          "end": 11.41
+        },
+        {
+          "word": "principles,",
+          "start": 11.41,
+          "end": 11.86
+        },
+        {
+          "word": "scaling",
+          "start": 11.86,
+          "end": 12.3
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 12.3,
+          "end": 12.74
+        },
+        {
+          "word": "and",
+          "start": 12.74,
+          "end": 13.19
+        },
+        {
+          "word": "distributed",
+          "start": 13.19,
+          "end": 13.63
+        },
+        {
+          "word": "memory",
+          "start": 13.63,
+          "end": 14.08
+        },
+        {
+          "word": "management",
+          "start": 14.08,
+          "end": 14.52
+        },
+        {
+          "word": "in",
+          "start": 14.52,
+          "end": 14.97
+        },
+        {
+          "word": "modern",
+          "start": 14.97,
+          "end": 15.41
+        },
+        {
+          "word": "computing",
+          "start": 15.41,
+          "end": 15.86
+        },
+        {
+          "word": "systems.",
+          "start": 15.86,
+          "end": 16.3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 16.4,
+      "end": 24.4,
+      "text": "Chapter 3: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 16.4,
+          "end": 16.84
+        },
+        {
+          "word": "3:",
+          "start": 16.84,
+          "end": 17.29
+        },
+        {
+          "word": "Deep",
+          "start": 17.29,
+          "end": 17.73
+        },
+        {
+          "word": "dive",
+          "start": 17.73,
+          "end": 18.18
+        },
+        {
+          "word": "into",
+          "start": 18.18,
+          "end": 18.62
+        },
+        {
+          "word": "architectural",
+          "start": 18.62,
+          "end": 19.07
+        },
+        {
+          "word": "design",
+          "start": 19.07,
+          "end": 19.51
+        },
+        {
+          "word": "principles,",
+          "start": 19.51,
+          "end": 19.96
+        },
+        {
+          "word": "scaling",
+          "start": 19.96,
+          "end": 20.4
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 20.4,
+          "end": 20.84
+        },
+        {
+          "word": "and",
+          "start": 20.84,
+          "end": 21.29
+        },
+        {
+          "word": "distributed",
+          "start": 21.29,
+          "end": 21.73
+        },
+        {
+          "word": "memory",
+          "start": 21.73,
+          "end": 22.18
+        },
+        {
+          "word": "management",
+          "start": 22.18,
+          "end": 22.62
+        },
+        {
+          "word": "in",
+          "start": 22.62,
+          "end": 23.07
+        },
+        {
+          "word": "modern",
+          "start": 23.07,
+          "end": 23.51
+        },
+        {
+          "word": "computing",
+          "start": 23.51,
+          "end": 23.96
+        },
+        {
+          "word": "systems.",
+          "start": 23.96,
+          "end": 24.4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 24.5,
+      "end": 32.5,
+      "text": "Chapter 4: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 24.5,
+          "end": 24.94
+        },
+        {
+          "word": "4:",
+          "start": 24.94,
+          "end": 25.39
+        },
+        {
+          "word": "Deep",
+          "start": 25.39,
+          "end": 25.83
+        },
+        {
+          "word": "dive",
+          "start": 25.83,
+          "end": 26.28
+        },
+        {
+          "word": "into",
+          "start": 26.28,
+          "end": 26.72
+        },
+        {
+          "word": "architectural",
+          "start": 26.72,
+          "end": 27.17
+        },
+        {
+          "word": "design",
+          "start": 27.17,
+          "end": 27.61
+        },
+        {
+          "word": "principles,",
+          "start": 27.61,
+          "end": 28.06
+        },
+        {
+          "word": "scaling",
+          "start": 28.06,
+          "end": 28.5
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 28.5,
+          "end": 28.94
+        },
+        {
+          "word": "and",
+          "start": 28.94,
+          "end": 29.39
+        },
+        {
+          "word": "distributed",
+          "start": 29.39,
+          "end": 29.83
+        },
+        {
+          "word": "memory",
+          "start": 29.83,
+          "end": 30.28
+        },
+        {
+          "word": "management",
+          "start": 30.28,
+          "end": 30.72
+        },
+        {
+          "word": "in",
+          "start": 30.72,
+          "end": 31.17
+        },
+        {
+          "word": "modern",
+          "start": 31.17,
+          "end": 31.61
+        },
+        {
+          "word": "computing",
+          "start": 31.61,
+          "end": 32.06
+        },
+        {
+          "word": "systems.",
+          "start": 32.06,
+          "end": 32.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 32.6,
+      "end": 40.6,
+      "text": "Chapter 5: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 32.6,
+          "end": 33.04
+        },
+        {
+          "word": "5:",
+          "start": 33.04,
+          "end": 33.49
+        },
+        {
+          "word": "Deep",
+          "start": 33.49,
+          "end": 33.93
+        },
+        {
+          "word": "dive",
+          "start": 33.93,
+          "end": 34.38
+        },
+        {
+          "word": "into",
+          "start": 34.38,
+          "end": 34.82
+        },
+        {
+          "word": "architectural",
+          "start": 34.82,
+          "end": 35.27
+        },
+        {
+          "word": "design",
+          "start": 35.27,
+          "end": 35.71
+        },
+        {
+          "word": "principles,",
+          "start": 35.71,
+          "end": 36.16
+        },
+        {
+          "word": "scaling",
+          "start": 36.16,
+          "end": 36.6
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 36.6,
+          "end": 37.04
+        },
+        {
+          "word": "and",
+          "start": 37.04,
+          "end": 37.49
+        },
+        {
+          "word": "distributed",
+          "start": 37.49,
+          "end": 37.93
+        },
+        {
+          "word": "memory",
+          "start": 37.93,
+          "end": 38.38
+        },
+        {
+          "word": "management",
+          "start": 38.38,
+          "end": 38.82
+        },
+        {
+          "word": "in",
+          "start": 38.82,
+          "end": 39.27
+        },
+        {
+          "word": "modern",
+          "start": 39.27,
+          "end": 39.71
+        },
+        {
+          "word": "computing",
+          "start": 39.71,
+          "end": 40.16
+        },
+        {
+          "word": "systems.",
+          "start": 40.16,
+          "end": 40.6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 40.7,
+      "end": 48.7,
+      "text": "Chapter 6: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 40.7,
+          "end": 41.14
+        },
+        {
+          "word": "6:",
+          "start": 41.14,
+          "end": 41.59
+        },
+        {
+          "word": "Deep",
+          "start": 41.59,
+          "end": 42.03
+        },
+        {
+          "word": "dive",
+          "start": 42.03,
+          "end": 42.48
+        },
+        {
+          "word": "into",
+          "start": 42.48,
+          "end": 42.92
+        },
+        {
+          "word": "architectural",
+          "start": 42.92,
+          "end": 43.37
+        },
+        {
+          "word": "design",
+          "start": 43.37,
+          "end": 43.81
+        },
+        {
+          "word": "principles,",
+          "start": 43.81,
+          "end": 44.26
+        },
+        {
+          "word": "scaling",
+          "start": 44.26,
+          "end": 44.7
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 44.7,
+          "end": 45.14
+        },
+        {
+          "word": "and",
+          "start": 45.14,
+          "end": 45.59
+        },
+        {
+          "word": "distributed",
+          "start": 45.59,
+          "end": 46.03
+        },
+        {
+          "word": "memory",
+          "start": 46.03,
+          "end": 46.48
+        },
+        {
+          "word": "management",
+          "start": 46.48,
+          "end": 46.92
+        },
+        {
+          "word": "in",
+          "start": 46.92,
+          "end": 47.37
+        },
+        {
+          "word": "modern",
+          "start": 47.37,
+          "end": 47.81
+        },
+        {
+          "word": "computing",
+          "start": 47.81,
+          "end": 48.26
+        },
+        {
+          "word": "systems.",
+          "start": 48.26,
+          "end": 48.7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 48.8,
+      "end": 56.8,
+      "text": "Chapter 7: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 48.8,
+          "end": 49.24
+        },
+        {
+          "word": "7:",
+          "start": 49.24,
+          "end": 49.69
+        },
+        {
+          "word": "Deep",
+          "start": 49.69,
+          "end": 50.13
+        },
+        {
+          "word": "dive",
+          "start": 50.13,
+          "end": 50.58
+        },
+        {
+          "word": "into",
+          "start": 50.58,
+          "end": 51.02
+        },
+        {
+          "word": "architectural",
+          "start": 51.02,
+          "end": 51.47
+        },
+        {
+          "word": "design",
+          "start": 51.47,
+          "end": 51.91
+        },
+        {
+          "word": "principles,",
+          "start": 51.91,
+          "end": 52.36
+        },
+        {
+          "word": "scaling",
+          "start": 52.36,
+          "end": 52.8
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 52.8,
+          "end": 53.24
+        },
+        {
+          "word": "and",
+          "start": 53.24,
+          "end": 53.69
+        },
+        {
+          "word": "distributed",
+          "start": 53.69,
+          "end": 54.13
+        },
+        {
+          "word": "memory",
+          "start": 54.13,
+          "end": 54.58
+        },
+        {
+          "word": "management",
+          "start": 54.58,
+          "end": 55.02
+        },
+        {
+          "word": "in",
+          "start": 55.02,
+          "end": 55.47
+        },
+        {
+          "word": "modern",
+          "start": 55.47,
+          "end": 55.91
+        },
+        {
+          "word": "computing",
+          "start": 55.91,
+          "end": 56.36
+        },
+        {
+          "word": "systems.",
+          "start": 56.36,
+          "end": 56.8
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 56.9,
+      "end": 64.9,
+      "text": "Chapter 8: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 56.9,
+          "end": 57.34
+        },
+        {
+          "word": "8:",
+          "start": 57.34,
+          "end": 57.79
+        },
+        {
+          "word": "Deep",
+          "start": 57.79,
+          "end": 58.23
+        },
+        {
+          "word": "dive",
+          "start": 58.23,
+          "end": 58.68
+        },
+        {
+          "word": "into",
+          "start": 58.68,
+          "end": 59.12
+        },
+        {
+          "word": "architectural",
+          "start": 59.12,
+          "end": 59.57
+        },
+        {
+          "word": "design",
+          "start": 59.57,
+          "end": 60.01
+        },
+        {
+          "word": "principles,",
+          "start": 60.01,
+          "end": 60.46
+        },
+        {
+          "word": "scaling",
+          "start": 60.46,
+          "end": 60.9
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 60.9,
+          "end": 61.34
+        },
+        {
+          "word": "and",
+          "start": 61.34,
+          "end": 61.79
+        },
+        {
+          "word": "distributed",
+          "start": 61.79,
+          "end": 62.23
+        },
+        {
+          "word": "memory",
+          "start": 62.23,
+          "end": 62.68
+        },
+        {
+          "word": "management",
+          "start": 62.68,
+          "end": 63.12
+        },
+        {
+          "word": "in",
+          "start": 63.12,
+          "end": 63.57
+        },
+        {
+          "word": "modern",
+          "start": 63.57,
+          "end": 64.01
+        },
+        {
+          "word": "computing",
+          "start": 64.01,
+          "end": 64.46
+        },
+        {
+          "word": "systems.",
+          "start": 64.46,
+          "end": 64.9
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 65,
+      "end": 73,
+      "text": "Chapter 9: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 65,
+          "end": 65.44
+        },
+        {
+          "word": "9:",
+          "start": 65.44,
+          "end": 65.89
+        },
+        {
+          "word": "Deep",
+          "start": 65.89,
+          "end": 66.33
+        },
+        {
+          "word": "dive",
+          "start": 66.33,
+          "end": 66.78
+        },
+        {
+          "word": "into",
+          "start": 66.78,
+          "end": 67.22
+        },
+        {
+          "word": "architectural",
+          "start": 67.22,
+          "end": 67.67
+        },
+        {
+          "word": "design",
+          "start": 67.67,
+          "end": 68.11
+        },
+        {
+          "word": "principles,",
+          "start": 68.11,
+          "end": 68.56
+        },
+        {
+          "word": "scaling",
+          "start": 68.56,
+          "end": 69
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 69,
+          "end": 69.44
+        },
+        {
+          "word": "and",
+          "start": 69.44,
+          "end": 69.89
+        },
+        {
+          "word": "distributed",
+          "start": 69.89,
+          "end": 70.33
+        },
+        {
+          "word": "memory",
+          "start": 70.33,
+          "end": 70.78
+        },
+        {
+          "word": "management",
+          "start": 70.78,
+          "end": 71.22
+        },
+        {
+          "word": "in",
+          "start": 71.22,
+          "end": 71.67
+        },
+        {
+          "word": "modern",
+          "start": 71.67,
+          "end": 72.11
+        },
+        {
+          "word": "computing",
+          "start": 72.11,
+          "end": 72.56
+        },
+        {
+          "word": "systems.",
+          "start": 72.56,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 73.1,
+      "end": 80,
+      "text": "Chapter 10: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "words": [
+        {
+          "word": "Chapter",
+          "start": 73.1,
+          "end": 73.48
+        },
+        {
+          "word": "10:",
+          "start": 73.48,
+          "end": 73.87
+        },
+        {
+          "word": "Deep",
+          "start": 73.87,
+          "end": 74.25
+        },
+        {
+          "word": "dive",
+          "start": 74.25,
+          "end": 74.63
+        },
+        {
+          "word": "into",
+          "start": 74.63,
+          "end": 75.02
+        },
+        {
+          "word": "architectural",
+          "start": 75.02,
+          "end": 75.4
+        },
+        {
+          "word": "design",
+          "start": 75.4,
+          "end": 75.78
+        },
+        {
+          "word": "principles,",
+          "start": 75.78,
+          "end": 76.17
+        },
+        {
+          "word": "scaling",
+          "start": 76.17,
+          "end": 76.55
+        },
+        {
+          "word": "bottlenecks,",
+          "start": 76.55,
+          "end": 76.93
+        },
+        {
+          "word": "and",
+          "start": 76.93,
+          "end": 77.32
+        },
+        {
+          "word": "distributed",
+          "start": 77.32,
+          "end": 77.7
+        },
+        {
+          "word": "memory",
+          "start": 77.7,
+          "end": 78.08
+        },
+        {
+          "word": "management",
+          "start": 78.08,
+          "end": 78.47
+        },
+        {
+          "word": "in",
+          "start": 78.47,
+          "end": 78.85
+        },
+        {
+          "word": "modern",
+          "start": 78.85,
+          "end": 79.23
+        },
+        {
+          "word": "computing",
+          "start": 79.23,
+          "end": 79.62
+        },
+        {
+          "word": "systems.",
+          "start": 79.62,
+          "end": 80
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "narration": "Chapter 1: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 1",
+      "textOnScreen": "CHAPTER 1: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#020617",
+        "to": "#1e1b4b",
+        "accent": "#38bdf8"
+      }
+    },
+    {
+      "index": 2,
+      "narration": "Chapter 2: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 2",
+      "textOnScreen": "CHAPTER 2: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#090d16",
+        "to": "#172554",
+        "accent": "#06b6d4"
+      }
+    },
+    {
+      "index": 3,
+      "narration": "Chapter 3: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 3",
+      "textOnScreen": "CHAPTER 3: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#030712",
+        "to": "#0f172a",
+        "accent": "#a855f7"
+      }
+    },
+    {
+      "index": 4,
+      "narration": "Chapter 4: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 4",
+      "textOnScreen": "CHAPTER 4: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#052e16",
+        "to": "#022c22",
+        "accent": "#10b981"
+      }
+    },
+    {
+      "index": 5,
+      "narration": "Chapter 5: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 5",
+      "textOnScreen": "CHAPTER 5: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#450a0a",
+        "to": "#1c1917",
+        "accent": "#ef4444"
+      }
+    },
+    {
+      "index": 6,
+      "narration": "Chapter 6: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 6",
+      "textOnScreen": "CHAPTER 6: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#020617",
+        "to": "#1e1b4b",
+        "accent": "#38bdf8"
+      }
+    },
+    {
+      "index": 7,
+      "narration": "Chapter 7: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 7",
+      "textOnScreen": "CHAPTER 7: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#090d16",
+        "to": "#172554",
+        "accent": "#06b6d4"
+      }
+    },
+    {
+      "index": 8,
+      "narration": "Chapter 8: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 8",
+      "textOnScreen": "CHAPTER 8: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#030712",
+        "to": "#0f172a",
+        "accent": "#a855f7"
+      }
+    },
+    {
+      "index": 9,
+      "narration": "Chapter 9: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 9",
+      "textOnScreen": "CHAPTER 9: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#052e16",
+        "to": "#022c22",
+        "accent": "#10b981"
+      }
+    },
+    {
+      "index": 10,
+      "narration": "Chapter 10: Deep dive into architectural design principles, scaling bottlenecks, and distributed memory management in modern computing systems.",
+      "visualPrompt": "High performance compute node architecture chapter 10",
+      "textOnScreen": "CHAPTER 10: ARCHITECTURE",
+      "durationSeconds": 30,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#450a0a",
+        "to": "#1c1917",
+        "accent": "#ef4444"
+      }
+    }
+  ],
+  "createdAt": "2026-10-26T04:51:31.356Z"
+}

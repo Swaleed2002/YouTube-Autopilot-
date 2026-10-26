@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Top 3 Open Source LLMs That Beat Commercial APIs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    #stage-container {
+      position: relative;
+      width: min(100vw, 56.25vh);
+      height: min(177.78vw, 100vh);
+      aspect-ratio: 9/16;
+      background: #020617;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .overlay-hud {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .badge {
+      background: rgba(239, 68, 68, 0.85);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      backdrop-filter: blur(8px);
+    }
+    .watermark {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 600;
+    }
+    .controls {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      padding: 10px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 20;
+    }
+    .btn {
+      background: #ef4444;
+      border: none;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .progress-bar-bg {
+      flex: 1;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: #38bdf8;
+      transition: width 0.1s linear;
+    }
+    .time-txt {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div id="stage-container">
+    <canvas id="render-canvas"></canvas>
+    <div class="overlay-hud">
+      <span class="badge">YOUTUBE SHORTS</span>
+      <span class="watermark">Faceless Autopilot</span>
+    </div>
+    <div class="controls">
+      <button class="btn" id="play-btn">Play</button>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill"></div>
+      </div>
+      <span class="time-txt" id="time-display">0:00 / 0:00</span>
+    </div>
+  </div>
+
+  <audio id="audio-track" src="/api/storage/voice_1792990275344_prod_short_01.wav" preload="auto"></audio>
+
+  <script>
+    const data = {"id":"prod_short_01","title":"Top 3 Open Source LLMs That Beat Commercial APIs","format":"short","aspectRatio":"9:16","width":1080,"height":1920,"durationSeconds":40,"audioUrl":"/api/storage/voice_1792990275344_prod_short_01.wav","videoUrl":"/api/storage/video_prod_short_01.mp4","thumbnailUrl":"/api/storage/thumb_prod_short_01_1792990275349.svg","subtitles":[{"id":1,"start":0.2,"end":3.31,"text":"Stop paying monthly subscriptions for proprietary models.","words":[{"word":"Stop","start":0.2,"end":0.64},{"word":"paying","start":0.64,"end":1.09},{"word":"monthly","start":1.09,"end":1.53},{"word":"subscriptions","start":1.53,"end":1.98},{"word":"for","start":1.98,"end":2.42},{"word":"proprietary","start":2.42,"end":2.87},{"word":"models.","start":2.87,"end":3.31}]},{"id":2,"start":3.41,"end":7.86,"text":"These three open weights run directly on your own hardware.","words":[{"word":"These","start":3.41,"end":3.86},{"word":"three","start":3.86,"end":4.3},{"word":"open","start":4.3,"end":4.75},{"word":"weights","start":4.75,"end":5.19},{"word":"run","start":5.19,"end":5.64},{"word":"directly","start":5.64,"end":6.08},{"word":"on","start":6.08,"end":6.53},{"word":"your","start":6.53,"end":6.97},{"word":"own","start":6.97,"end":7.42},{"word":"hardware.","start":7.42,"end":7.86}]},{"id":3,"start":7.96,"end":10.19,"text":"Number one is DeepSeek R1.","words":[{"word":"Number","start":7.96,"end":8.41},{"word":"one","start":8.41,"end":8.85},{"word":"is","start":8.85,"end":9.3},{"word":"DeepSeek","start":9.3,"end":9.74},{"word":"R1.","start":9.74,"end":10.19}]},{"id":4,"start":10.29,"end":15.63,"text":"It proved that pure reinforcement learning can match top reasoning benchmarks worldwide.","words":[{"word":"It","start":10.29,"end":10.73},{"word":"proved","start":10.73,"end":11.18},{"word":"that","start":11.18,"end":11.62},{"word":"pure","start":11.62,"end":12.07},{"word":"reinforcement","start":12.07,"end":12.51},{"word":"learning","start":12.51,"end":12.96},{"word":"can","start":12.96,"end":13.4},{"word":"match","start":13.4,"end":13.85},{"word":"top","start":13.85,"end":14.29},{"word":"reasoning","start":14.29,"end":14.74},{"word":"benchmarks","start":14.74,"end":15.18},{"word":"worldwide.","start":15.18,"end":15.63}]},{"id":5,"start":15.73,"end":17.95,"text":"Number two is Qwen 2.","words":[{"word":"Number","start":15.73,"end":16.17},{"word":"two","start":16.17,"end":16.62},{"word":"is","start":16.62,"end":17.06},{"word":"Qwen","start":17.06,"end":17.51},{"word":"2.","start":17.51,"end":17.95}]},{"id":6,"start":18.05,"end":19.25,"text":"5 Coder.","words":[{"word":"5","start":18.05,"end":18.65},{"word":"Coder.","start":18.65,"end":19.25}]},{"id":7,"start":19.35,"end":24.25,"text":"In coding benchmarks, it outperforms models ten times its parameter size.","words":[{"word":"In","start":19.35,"end":19.8},{"word":"coding","start":19.8,"end":20.24},{"word":"benchmarks,","start":20.24,"end":20.69},{"word":"it","start":20.69,"end":21.13},{"word":"outperforms","start":21.13,"end":21.58},{"word":"models","start":21.58,"end":22.02},{"word":"ten","start":22.02,"end":22.47},{"word":"times","start":22.47,"end":22.91},{"word":"its","start":22.91,"end":23.36},{"word":"parameter","start":23.36,"end":23.8},{"word":"size.","start":23.8,"end":24.25}]},{"id":8,"start":24.35,"end":27.02,"text":"And number three is Llama 3.","words":[{"word":"And","start":24.35,"end":24.79},{"word":"number","start":24.79,"end":25.24},{"word":"three","start":25.24,"end":25.68},{"word":"is","start":25.68,"end":26.13},{"word":"Llama","start":26.13,"end":26.57},{"word":"3.","start":26.57,"end":27.02}]},{"id":9,"start":27.12,"end":28.32,"text":"3.","words":[{"word":"3.","start":27.12,"end":28.32}]},{"id":10,"start":28.42,"end":30.7,"text":"Check the links in description to run them locally using Ollama today.","words":[{"word":"Check","start":28.42,"end":28.61},{"word":"the","start":28.61,"end":28.8},{"word":"links","start":28.8,"end":28.99},{"word":"in","start":28.99,"end":29.18},{"word":"description","start":29.18,"end":29.37},{"word":"to","start":29.37,"end":29.56},{"word":"run","start":29.56,"end":29.75},{"word":"them","start":29.75,"end":29.94},{"word":"locally","start":29.94,"end":30.13},{"word":"using","start":30.13,"end":30.32},{"word":"Ollama","start":30.32,"end":30.51},{"word":"today.","start":30.51,"end":30.7}]}],"scenes":[{"index":1,"narration":"Stop paying monthly subscriptions for proprietary models. These three open weights run directly on your own hardware.","visualPrompt":"Glowing cyber server rack with cyan pulses","textOnScreen":"LOCAL AI REVOLUTION","durationSeconds":10,"mediaType":"motion_graphic","themeGradient":{"from":"#020617","to":"#1e1b4b","accent":"#38bdf8"}},{"index":2,"narration":"Number one is DeepSeek R1. It proved that pure reinforcement learning can match top reasoning benchmarks worldwide.","visualPrompt":"Neural network diagram activating in real-time","textOnScreen":"DEEPSEEK-R1 REASONING","durationSeconds":10,"mediaType":"motion_graphic","themeGradient":{"from":"#090d16","to":"#172554","accent":"#06b6d4"}},{"index":3,"narration":"Number two is Qwen 2.5 Coder. In coding benchmarks, it outperforms models ten times its parameter size.","visualPrompt":"Matrix code terminal compiling at 120 FPS","textOnScreen":"QWEN 2.5 CODER","durationSeconds":10,"mediaType":"motion_graphic","themeGradient":{"from":"#030712","to":"#0f172a","accent":"#a855f7"}},{"index":4,"narration":"And number three is Llama 3.3. Check the links in description to run them locally using Ollama today.","visualPrompt":"Smartphone running local Ollama inference command","textOnScreen":"RUN LOCALLY","durationSeconds":10,"mediaType":"motion_graphic","themeGradient":{"from":"#052e16","to":"#022c22","accent":"#10b981"}}],"createdAt":"2026-10-26T04:51:16.935Z"};
+    const canvas = document.getElementById('render-canvas');
+    const ctx = canvas.getContext('2d');
+    const audio = document.getElementById('audio-track');
+    const playBtn = document.getElementById('play-btn');
+    const progressFill = document.getElementById('progress-fill');
+    const timeDisplay = document.getElementById('time-display');
+
+    canvas.width = data.width;
+    canvas.height = data.height;
+
+    let isPlaying = false;
+    let currentTime = 0;
+    const totalDuration = data.durationSeconds;
+
+    function formatTime(s) {
+      const mins = Math.floor(s / 60);
+      const secs = Math.floor(s % 60);
+      return mins + ':' + (secs < 10 ? '0' : '') + secs;
+    }
+
+    function drawFrame(t) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Determine current scene
+      let accumulated = 0;
+      let activeScene = data.scenes[0];
+      for (const scene of data.scenes) {
+        if (t >= accumulated && t < accumulated + scene.durationSeconds) {
+          activeScene = scene;
+          break;
+        }
+        accumulated += scene.durationSeconds;
+      }
+
+      const sceneProgress = (t - (accumulated - (activeScene ? activeScene.durationSeconds : 0))) / (activeScene ? activeScene.durationSeconds : 1);
+
+      // Ken Burns Pan & Zoom Effect
+      const zoom = 1.0 + (sceneProgress * 0.12);
+      ctx.save();
+      ctx.translate(canvas.width / 2, canvas.height / 2);
+      ctx.scale(zoom, zoom);
+      ctx.translate(-canvas.width / 2, -canvas.height / 2);
+
+      // Background gradient
+      const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      grad.addColorStop(0, activeScene.themeGradient.from);
+      grad.addColorStop(1, activeScene.themeGradient.to);
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Tech Grid
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
+      ctx.lineWidth = 2;
+      const step = 80;
+      for (let x = 0; x < canvas.width; x += step) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+      }
+      for (let y = 0; y < canvas.height; y += step) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
+      }
+
+      // Cyber Glow Circle
+      ctx.beginPath();
+      ctx.arc(canvas.width / 2, canvas.height * 0.42, 240, 0, Math.PI * 2);
+      ctx.fillStyle = activeScene.themeGradient.accent + '22';
+      ctx.fill();
+
+      ctx.restore();
+
+      // Bold Text On Screen (Infographic Hook)
+      if (activeScene.textOnScreen) {
+        ctx.save();
+        ctx.fillStyle = activeScene.themeGradient.accent;
+        ctx.font = '900 ' + (data.aspectRatio === '9:16' ? '54px' : '44px') + ' system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.shadowColor = 'rgba(0,0,0,0.8)';
+        ctx.shadowBlur = 20;
+        ctx.fillText(activeScene.textOnScreen.toUpperCase(), canvas.width / 2, canvas.height * 0.35);
+        ctx.restore();
+      }
+
+      // Active Subtitles (Karaoke-style Highlight)
+      const activeSub = data.subtitles.find(s => t >= s.start && t <= s.end);
+      if (activeSub) {
+        ctx.save();
+        ctx.textAlign = 'center';
+        const subY = canvas.height * (data.aspectRatio === '9:16' ? 0.68 : 0.78);
+
+        // Backdrop pill
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
+        const textWidth = ctx.measureText(activeSub.text).width + 80;
+        ctx.fillRect((canvas.width - textWidth) / 2, subY - 50, textWidth, 75);
+
+        // Highlight active word
+        ctx.font = '900 ' + (data.aspectRatio === '9:16' ? '46px' : '38px') + ' system-ui, sans-serif';
+        let renderedX = (canvas.width - textWidth) / 2 + 40;
+        for (const w of activeSub.words) {
+          const isWordActive = t >= w.start && t <= w.end;
+          ctx.fillStyle = isWordActive ? '#facc15' : '#ffffff';
+          ctx.fillText(w.word + ' ', renderedX + ctx.measureText(w.word).width / 2, subY);
+          renderedX += ctx.measureText(w.word + ' ').width;
+        }
+        ctx.restore();
+      }
+
+      // Time display & progress bar
+      progressFill.style.width = ((t / totalDuration) * 100) + '%';
+      timeDisplay.textContent = formatTime(t) + ' / ' + formatTime(totalDuration);
+    }
+
+    function loop() {
+      if (isPlaying) {
+        currentTime += 1 / 30;
+        if (currentTime >= totalDuration) {
+          currentTime = 0;
+          isPlaying = false;
+          playBtn.textContent = 'Play';
+          if (audio) audio.pause();
+        }
+        drawFrame(currentTime);
+        requestAnimationFrame(loop);
+      }
+    }
+
+    playBtn.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      playBtn.textContent = isPlaying ? 'Pause' : 'Play';
+      if (isPlaying) {
+        if (audio && audio.src) audio.play().catch(() => {});
+        loop();
+      } else {
+        if (audio) audio.pause();
+      }
+    });
+
+    drawFrame(0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+{
+  "id": "vid_d20fb86e-c",
+  "title": "Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) Explained in 60 Seconds",
+  "format": "short",
+  "aspectRatio": "9:16",
+  "width": 720,
+  "height": 1280,
+  "durationSeconds": 32,
+  "audioUrl": "/api/storage/voice_1792995351661_vid_d20fb86e-c.wav",
+  "videoUrl": "/api/storage/video_vid_d20fb86e-c.mp4",
+  "thumbnailUrl": "/api/storage/thumb_vid_d20fb86e-c_1792995352472.svg",
+  "subtitles": [
+    {
+      "start": 0,
+      "end": 4,
+      "text": "Did you know that modern innovations",
+      "words": []
+    },
+    {
+      "start": 4,
+      "end": 8,
+      "text": "are changing everything we know about computing?",
+      "words": []
+    },
+    {
+      "start": 8,
+      "end": 12,
+      "text": "Traditional systems struggle with latency and bloat.",
+      "words": []
+    },
+    {
+      "start": 12,
+      "end": 17,
+      "text": "This architecture cuts execution time by over 70%.",
+      "words": []
+    },
+    {
+      "start": 17,
+      "end": 22,
+      "text": "Developers worldwide are migrating right now.",
+      "words": []
+    },
+    {
+      "start": 22,
+      "end": 28,
+      "text": "It is fully open-source with zero lock-in.",
+      "words": []
+    },
+    {
+      "start": 28,
+      "end": 32,
+      "text": "Follow for daily automated tech breakthroughs.",
+      "words": []
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "narration": "Did you know that Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) is changing everything we know about computing? Here is what nobody tells you.",
+      "visualPrompt": "Futuristic high-tech computer chip glowing with cyan and purple pulses",
+      "textOnScreen": "THE UNSEEN REVOLUTION",
+      "durationSeconds": 8,
+      "mediaType": "motion_graphic",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_vid_d20fb86e-c_1.jpg",
+      "themeGradient": {
+        "from": "#020617",
+        "to": "#1e1b4b",
+        "accent": "#38bdf8"
+      }
+    },
+    {
+      "index": 2,
+      "narration": "Traditional systems struggle with latency and resource bloat. But this architecture cuts execution time by over 70%.",
+      "visualPrompt": "Code flowing rapidly down a cybernetic matrix terminal",
+      "textOnScreen": "70% FASTER EXECUTION",
+      "durationSeconds": 9,
+      "mediaType": "motion_graphic",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_vid_d20fb86e-c_2.jpg",
+      "themeGradient": {
+        "from": "#090d16",
+        "to": "#172554",
+        "accent": "#06b6d4"
+      }
+    },
+    {
+      "index": 3,
+      "narration": "Developers worldwide are migrating because it is fully open-source, reproducible, and requires zero paid lock-in.",
+      "visualPrompt": "A global 3D network connecting servers and developers around the globe",
+      "textOnScreen": "100% OPEN SOURCE",
+      "durationSeconds": 8,
+      "mediaType": "motion_graphic",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_vid_d20fb86e-c_3.jpg",
+      "themeGradient": {
+        "from": "#030712",
+        "to": "#0f172a",
+        "accent": "#a855f7"
+      }
+    },
+    {
+      "index": 4,
+      "narration": "If you want to stay ahead of the next wave of engineering, explore the official repository today.",
+      "visualPrompt": "Sleek smartphone displaying high-velocity code benchmarks and star counters",
+      "textOnScreen": "TRY IT TODAY",
+      "durationSeconds": 7,
+      "mediaType": "motion_graphic",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_vid_d20fb86e-c_4.jpg",
+      "themeGradient": {
+        "from": "#052e16",
+        "to": "#022c22",
+        "accent": "#10b981"
+      }
+    }
+  ],
+  "createdAt": "2026-10-26T06:23:10.861Z"
+}

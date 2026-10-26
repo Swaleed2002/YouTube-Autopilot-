@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>How NASA Fixed Voyager 1 From 15 Billion Miles Away</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    #stage-container {
+      position: relative;
+      width: min(100vw, 177.78vh);
+      height: min(56.25vw, 100vh);
+      aspect-ratio: 16/9;
+      background: #020617;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .overlay-hud {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .badge {
+      background: rgba(239, 68, 68, 0.85);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      backdrop-filter: blur(8px);
+    }
+    .watermark {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div id="stage-container">
+    <video id="main-video" src="/api/storage/video_prod_long_01.mp4" controls playsinline preload="auto"></video>
+    <div class="overlay-hud">
+      <span class="badge">LONG-FORM HD</span>
+      <span class="watermark">Faceless Autopilot</span>
+    </div>
+  </div>
+</body>
+</html>

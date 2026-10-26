@@ -1,0 +1,74 @@
+{
+  "id": "test_render",
+  "title": "Quality Verification Test Video",
+  "format": "short",
+  "aspectRatio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "durationSeconds": 17,
+  "audioUrl": "",
+  "videoUrl": "/api/storage/video_test_render.mp4",
+  "thumbnailUrl": "/api/storage/dummy.svg",
+  "subtitles": [
+    {
+      "id": 1,
+      "start": 0.1,
+      "end": 5.5,
+      "text": "Verifying automated video pipeline.",
+      "words": [
+        {
+          "word": "Verifying",
+          "start": 0.1,
+          "end": 1.5
+        },
+        {
+          "word": "pipeline",
+          "start": 1.6,
+          "end": 5.5
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "narration": "Verifying automated video pipeline.",
+      "visualPrompt": "High tech circuit board",
+      "textOnScreen": "SYSTEM VERIFIED",
+      "durationSeconds": 6,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#020617",
+        "to": "#1e1b4b",
+        "accent": "#38bdf8"
+      }
+    },
+    {
+      "index": 2,
+      "narration": "All components operational.",
+      "visualPrompt": "Cybernetic network",
+      "textOnScreen": "100% PASS",
+      "durationSeconds": 6,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#090d16",
+        "to": "#172554",
+        "accent": "#06b6d4"
+      }
+    },
+    {
+      "index": 3,
+      "narration": "Quality check complete.",
+      "visualPrompt": "Smartphone control panel",
+      "textOnScreen": "READY",
+      "durationSeconds": 5,
+      "mediaType": "motion_graphic",
+      "themeGradient": {
+        "from": "#030712",
+        "to": "#0f172a",
+        "accent": "#a855f7"
+      }
+    }
+  ],
+  "createdAt": "2026-10-26T05:09:02.731Z"
+}

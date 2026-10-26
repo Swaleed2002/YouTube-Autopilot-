@@ -1,0 +1,77 @@
+{
+  "id": "prod_long_01",
+  "title": "How NASA Fixed Voyager 1 From 15 Billion Miles Away",
+  "format": "long",
+  "aspectRatio": "16:9",
+  "width": 1280,
+  "height": 720,
+  "durationSeconds": 21,
+  "audioUrl": "",
+  "videoUrl": "/api/storage/video_prod_long_01.mp4",
+  "thumbnailUrl": "/api/storage/thumb_prod_long_01_1792990287947.svg",
+  "subtitles": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "In late 2023, Voyager 1 went completely silent 15 billion miles away.",
+      "words": []
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "text": "Built in 1977, Voyager runs on vintage triple-redundant flight computers.",
+      "words": []
+    },
+    {
+      "start": 14,
+      "end": 21,
+      "text": "JPL engineers performed code surgery across space to save the mission.",
+      "words": []
+    }
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "narration": "In late 2023, Voyager 1 went completely silent, sending back nothing but raw repetitive binary noise across fifteen billion miles.",
+      "visualPrompt": "Voyager 1 deep space probe drifting amidst stars in the cold void",
+      "textOnScreen": "15 BILLION MILES AWAY",
+      "durationSeconds": 7,
+      "mediaType": "video",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_prod_long_01_1.jpg",
+      "themeGradient": {
+        "from": "#020617",
+        "to": "#1e1b4b",
+        "accent": "#38bdf8"
+      }
+    },
+    {
+      "index": 2,
+      "narration": "Built in 1977, Voyager runs on triple-redundant flight computers with mere kilobytes of memory routing vintage assembly code.",
+      "visualPrompt": "Vintage 1970s spacecraft circuit board with ceramic microchips and glowing buses",
+      "textOnScreen": "1970s FLIGHT COMPUTERS",
+      "durationSeconds": 7,
+      "mediaType": "motion_graphic",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_prod_long_01_2.jpg",
+      "themeGradient": {
+        "from": "#090d16",
+        "to": "#172554",
+        "accent": "#06b6d4"
+      }
+    },
+    {
+      "index": 3,
+      "narration": "JPL engineers found a single fried memory chip and performed code surgery across space, bringing the probe back to life.",
+      "visualPrompt": "NASA mission control room monitors lighting up green with telemetry data",
+      "textOnScreen": "CODE SURGERY IN SPACE",
+      "durationSeconds": 7,
+      "mediaType": "video",
+      "mediaUrl": "/app/applet/data/storage/assets/scene_prod_long_01_3.jpg",
+      "themeGradient": {
+        "from": "#030712",
+        "to": "#0f172a",
+        "accent": "#a855f7"
+      }
+    }
+  ],
+  "createdAt": "2026-10-26T06:24:05.556Z"
+}

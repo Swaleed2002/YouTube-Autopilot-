@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Quality Verification Test Video</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+    }
+    #stage-container {
+      position: relative;
+      width: min(100vw, 56.25vh);
+      height: min(177.78vw, 100vh);
+      aspect-ratio: 9/16;
+      background: #020617;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .overlay-hud {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      right: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .badge {
+      background: rgba(239, 68, 68, 0.85);
+      color: white;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      backdrop-filter: blur(8px);
+    }
+    .watermark {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 600;
+    }
+    .controls {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      padding: 10px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 20;
+    }
+    .btn {
+      background: #ef4444;
+      border: none;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .progress-bar-bg {
+      flex: 1;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: #38bdf8;
+      transition: width 0.1s linear;
+    }
+    .time-txt {
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div id="stage-container">
+    <canvas id="render-canvas"></canvas>
+    <div class="overlay-hud">
+      <span class="badge">YOUTUBE SHORTS</span>
+      <span class="watermark">Faceless Autopilot</span>
+    </div>
+    <div class="controls">
+      <button class="btn" id="play-btn">Play</button>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill"></div>
+      </div>
+      <span class="time-txt" id="time-display">0:00 / 0:00</span>
+    </div>
+  </div>
+
+  <audio id="audio-track" src="" preload="auto"></audio>
+
+  <script>
+    const data = {"id":"test_render","title":"Quality Verification Test Video","format":"short","aspectRatio":"9:16","width":1080,"height":1920,"durationSeconds":17,"audioUrl":"","videoUrl":"/api/storage/video_test_render.mp4","thumbnailUrl":"/api/storage/dummy.svg","subtitles":[{"id":1,"start":0.1,"end":5.5,"text":"Verifying automated video pipeline.","words":[{"word":"Verifying","start":0.1,"end":1.5},{"word":"pipeline","start":1.6,"end":5.5}]}],"scenes":[{"index":1,"narration":"Verifying automated video pipeline.","visualPrompt":"High tech circuit board","textOnScreen":"SYSTEM VERIFIED","durationSeconds":6,"mediaType":"motion_graphic","themeGradient":{"from":"#020617","to":"#1e1b4b","accent":"#38bdf8"}},{"index":2,"narration":"All components operational.","visualPrompt":"Cybernetic network","textOnScreen":"100% PASS","durationSeconds":6,"mediaType":"motion_graphic","themeGradient":{"from":"#090d16","to":"#172554","accent":"#06b6d4"}},{"index":3,"narration":"Quality check complete.","visualPrompt":"Smartphone control panel","textOnScreen":"READY","durationSeconds":5,"mediaType":"motion_graphic","themeGradient":{"from":"#030712","to":"#0f172a","accent":"#a855f7"}}],"createdAt":"2026-10-26T05:09:02.731Z"};
+    const canvas = document.getElementById('render-canvas');
+    const ctx = canvas.getContext('2d');
+    const audio = document.getElementById('audio-track');
+    const playBtn = document.getElementById('play-btn');
+    const progressFill = document.getElementById('progress-fill');
+    const timeDisplay = document.getElementById('time-display');
+
+    canvas.width = data.width;
+    canvas.height = data.height;
+
+    let isPlaying = false;
+    let currentTime = 0;
+    const totalDuration = data.durationSeconds;
+
+    function formatTime(s) {
+      const mins = Math.floor(s / 60);
+      const secs = Math.floor(s % 60);
+      return mins + ':' + (secs < 10 ? '0' : '') + secs;
+    }
+
+    function drawFrame(t) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Determine current scene
+      let accumulated = 0;
+      let activeScene = data.scenes[0];
+      for (const scene of data.scenes) {
+        if (t >= accumulated && t < accumulated + scene.durationSeconds) {
+          activeScene = scene;
+          break;
+        }
+        accumulated += scene.durationSeconds;
+      }
+
+      const sceneProgress = (t - (accumulated - (activeScene ? activeScene.durationSeconds : 0))) / (activeScene ? activeScene.durationSeconds : 1);
+
+      // Ken Burns Pan & Zoom Effect
+      const zoom = 1.0 + (sceneProgress * 0.12);
+      ctx.save();
+      ctx.translate(canvas.width / 2, canvas.height / 2);
+      ctx.scale(zoom, zoom);
+      ctx.translate(-canvas.width / 2, -canvas.height / 2);
+
+      // Background gradient
+      const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+      grad.addColorStop(0, activeScene.themeGradient.from);
+      grad.addColorStop(1, activeScene.themeGradient.to);
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Tech Grid
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
+      ctx.lineWidth = 2;
+      const step = 80;
+      for (let x = 0; x < canvas.width; x += step) {
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+      }
+      for (let y = 0; y < canvas.height; y += step) {
+        ctx.beginPath();
+        ctx.moveTo(0, y);
+        ctx.lineTo(canvas.width, y);
+        ctx.stroke();
+      }
+
+      // Cyber Glow Circle
+      ctx.beginPath();
+      ctx.arc(canvas.width / 2, canvas.height * 0.42, 240, 0, Math.PI * 2);
+      ctx.fillStyle = activeScene.themeGradient.accent + '22';
+      ctx.fill();
+
+      ctx.restore();
+
+      // Bold Text On Screen (Infographic Hook)
+      if (activeScene.textOnScreen) {
+        ctx.save();
+        ctx.fillStyle = activeScene.themeGradient.accent;
+        ctx.font = '900 ' + (data.aspectRatio === '9:16' ? '54px' : '44px') + ' system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.shadowColor = 'rgba(0,0,0,0.8)';
+        ctx.shadowBlur = 20;
+        ctx.fillText(activeScene.textOnScreen.toUpperCase(), canvas.width / 2, canvas.height * 0.35);
+        ctx.restore();
+      }
+
+      // Active Subtitles (Karaoke-style Highlight)
+      const activeSub = data.subtitles.find(s => t >= s.start && t <= s.end);
+      if (activeSub) {
+        ctx.save();
+        ctx.textAlign = 'center';
+        const subY = canvas.height * (data.aspectRatio === '9:16' ? 0.68 : 0.78);
+
+        // Backdrop pill
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
+        const textWidth = ctx.measureText(activeSub.text).width + 80;
+        ctx.fillRect((canvas.width - textWidth) / 2, subY - 50, textWidth, 75);
+
+        // Highlight active word
+        ctx.font = '900 ' + (data.aspectRatio === '9:16' ? '46px' : '38px') + ' system-ui, sans-serif';
+        let renderedX = (canvas.width - textWidth) / 2 + 40;
+        for (const w of activeSub.words) {
+          const isWordActive = t >= w.start && t <= w.end;
+          ctx.fillStyle = isWordActive ? '#facc15' : '#ffffff';
+          ctx.fillText(w.word + ' ', renderedX + ctx.measureText(w.word).width / 2, subY);
+          renderedX += ctx.measureText(w.word + ' ').width;
+        }
+        ctx.restore();
+      }
+
+      // Time display & progress bar
+      progressFill.style.width = ((t / totalDuration) * 100) + '%';
+      timeDisplay.textContent = formatTime(t) + ' / ' + formatTime(totalDuration);
+    }
+
+    function loop() {
+      if (isPlaying) {
+        currentTime += 1 / 30;
+        if (currentTime >= totalDuration) {
+          currentTime = 0;
+          isPlaying = false;
+          playBtn.textContent = 'Play';
+          if (audio) audio.pause();
+        }
+        drawFrame(currentTime);
+        requestAnimationFrame(loop);
+      }
+    }
+
+    playBtn.addEventListener('click', () => {
+      isPlaying = !isPlaying;
+      playBtn.textContent = isPlaying ? 'Pause' : 'Play';
+      if (isPlaying) {
+        if (audio && audio.src) audio.play().catch(() => {});
+        loop();
+      } else {
+        if (audio) audio.pause();
+      }
+    });
+
+    drawFrame(0);
+  </script>
+</body>
+</html>

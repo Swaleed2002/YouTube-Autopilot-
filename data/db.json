@@ -1,0 +1,1470 @@
+{
+  "videos": [
+    {
+      "id": "vid_d20fb86e-c",
+      "title": "Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) Explained in 60 Seconds",
+      "topic": "Breaking Down Modern Innovations in science_innovation",
+      "category": "science_innovation",
+      "format": "short",
+      "status": "ready",
+      "currentStep": "COMPLETE",
+      "progress": 100,
+      "createdAt": "2026-10-26T05:08:50.949Z",
+      "updatedAt": "2026-10-26T06:15:53.978Z",
+      "privacyStatus": "private",
+      "durationSeconds": 32,
+      "costEstimatedAed": 0.12,
+      "costActualAed": 0.11,
+      "logs": [
+        {
+          "timestamp": "2026-10-26T05:08:50.949Z",
+          "step": "SCHEDULER",
+          "message": "Video queued. Target: SHORT (science_innovation). Estimated cost: AED 0.12.",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:08:51.052Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:08:55.024Z",
+          "step": "DUPLICATE_CHECK",
+          "message": "Checking duplication database for \"Breaking Down Modern Innovations in science_innovation\"...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:08:55.026Z",
+          "step": "FACT_CHECK",
+          "message": "Cross-referencing technical claims to prevent hallucinations...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:08:57.947Z",
+          "step": "SCRIPT_GENERATION",
+          "message": "Generating high-CTR hook, narrative scene beats, and captions...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:44.642Z",
+          "step": "RECOVERY",
+          "message": "Server restart detected. Task recovered and placed back into queue.",
+          "status": "warning"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:44.644Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:44.645Z",
+          "step": "DUPLICATE_CHECK",
+          "message": "Checking duplication database for \"Breaking Down Modern Innovations in science_innovation\"...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:44.646Z",
+          "step": "DUPLICATE_CHECK",
+          "message": "Similar topic detected (Breaking Down Modern Innovations in science_innovation). Branching to unique angle.",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:44.647Z",
+          "step": "FACT_CHECK",
+          "message": "Cross-referencing technical claims to prevent hallucinations...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:46.203Z",
+          "step": "SCRIPT_GENERATION",
+          "message": "Generating high-CTR hook, narrative scene beats, and captions...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:46.439Z",
+          "step": "VOICE_GENERATION",
+          "message": "Synthesizing synchronized voiceover using Kore...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:51.667Z",
+          "step": "VISUAL_SELECTION",
+          "message": "Selecting high-contrast stock footage and motion graphic themes...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:52.469Z",
+          "step": "SUBTITLE_GENERATION",
+          "message": "Generating word-level Karaoke synchronized caption subtitles...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:52.470Z",
+          "step": "THUMBNAIL_GENERATION",
+          "message": "Generating high-impact thumbnail graphic...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:52.473Z",
+          "step": "VIDEO_RENDERING",
+          "message": "Compositing video frames, typography, zoom effects, and audio track...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:53.975Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Running automated quality assurance checks...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:53.977Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Quality verification passed 100%. Video compiled and stored.",
+          "status": "success"
+        },
+        {
+          "timestamp": "2026-10-26T06:15:53.978Z",
+          "step": "COMPLETE",
+          "message": "Video ready for mobile preview, download, or publishing.",
+          "status": "success"
+        }
+      ],
+      "retryCount": 0,
+      "factCheckSummary": "Verified against current technical benchmarks.",
+      "script": {
+        "title": "Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) Explained in 60 Seconds",
+        "hook": "Did you know that Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) is completely revolutionizing modern systems?",
+        "thumbnailHeadline": "GAME CHANGER",
+        "callToAction": "Follow for daily automated tech breakthroughs.",
+        "description": "Complete breakdown of Breaking Down Modern Innovations in science_innovation (2026 Deep Dive).\n\nBuilt with Faceless Autopilot.\n#tech #coding #shorts",
+        "tags": [
+          "technology",
+          "programming",
+          "ai",
+          "innovation",
+          "shorts"
+        ],
+        "sources": [
+          "Official Technical Documentation"
+        ],
+        "scenes": [
+          {
+            "index": 1,
+            "narration": "Did you know that Breaking Down Modern Innovations in science_innovation (2026 Deep Dive) is changing everything we know about computing? Here is what nobody tells you.",
+            "visualPrompt": "Futuristic high-tech computer chip glowing with cyan and purple pulses",
+            "durationSeconds": 8,
+            "textOnScreen": "THE UNSEEN REVOLUTION",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 2,
+            "narration": "Traditional systems struggle with latency and resource bloat. But this architecture cuts execution time by over 70%.",
+            "visualPrompt": "Code flowing rapidly down a cybernetic matrix terminal",
+            "durationSeconds": 9,
+            "textOnScreen": "70% FASTER EXECUTION",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 3,
+            "narration": "Developers worldwide are migrating because it is fully open-source, reproducible, and requires zero paid lock-in.",
+            "visualPrompt": "A global 3D network connecting servers and developers around the globe",
+            "durationSeconds": 8,
+            "textOnScreen": "100% OPEN SOURCE",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 4,
+            "narration": "If you want to stay ahead of the next wave of engineering, explore the official repository today.",
+            "visualPrompt": "Sleek smartphone displaying high-velocity code benchmarks and star counters",
+            "durationSeconds": 7,
+            "textOnScreen": "TRY IT TODAY",
+            "mediaType": "motion_graphic"
+          }
+        ]
+      },
+      "audioUrl": "/api/storage/voice_1792995351661_vid_d20fb86e-c.wav",
+      "thumbnailUrl": "/api/storage/thumb_vid_d20fb86e-c_1792995352472.svg",
+      "videoUrl": "/api/storage/video_vid_d20fb86e-c.mp4",
+      "qualityMetrics": {
+        "durationSeconds": 32,
+        "aspectRatio": "9:16",
+        "hasVoiceover": true,
+        "hasSubtitles": true,
+        "hasThumbnail": true,
+        "sceneCount": 4,
+        "wordCount": 75,
+        "estimatedPacingWpm": 141,
+        "passedValidation": true
+      }
+    },
+    {
+      "id": "vid_4d9b8382-5",
+      "title": "How NASA Fixed Voyager 1 From 15 Billion Miles Away",
+      "topic": "NASA's Remote Memory Patch on Voyager 1",
+      "category": "science_innovation",
+      "format": "long",
+      "status": "ready",
+      "currentStep": "COMPLETE",
+      "progress": 100,
+      "createdAt": "2026-10-26T04:50:05.953Z",
+      "updatedAt": "2026-10-26T05:06:53.416Z",
+      "privacyStatus": "private",
+      "durationSeconds": 370,
+      "costEstimatedAed": 0.85,
+      "costActualAed": 0.81,
+      "logs": [
+        {
+          "timestamp": "2026-10-26T04:50:05.953Z",
+          "step": "SCHEDULER",
+          "message": "Video queued. Target: LONG (science_innovation). Estimated cost: AED 0.85.",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T04:50:40.946Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T04:51:46.382Z",
+          "step": "RECOVERY",
+          "message": "Server restart detected. Task recovered and placed back into queue.",
+          "status": "warning"
+        },
+        {
+          "timestamp": "2026-10-26T04:51:46.383Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:03:39.300Z",
+          "step": "RECOVERY",
+          "message": "Server restart detected. Task recovered and placed back into queue.",
+          "status": "warning"
+        },
+        {
+          "timestamp": "2026-10-26T05:03:39.302Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:05:54.741Z",
+          "step": "DUPLICATE_CHECK",
+          "message": "Checking duplication database for \"NASA's Remote Memory Patch on Voyager 1\"...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:05:54.742Z",
+          "step": "FACT_CHECK",
+          "message": "Cross-referencing technical claims to prevent hallucinations...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:01.346Z",
+          "step": "SCRIPT_GENERATION",
+          "message": "Generating high-CTR hook, narrative scene beats, and captions...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:22.235Z",
+          "step": "VOICE_GENERATION",
+          "message": "Synthesizing synchronized voiceover using Kore...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:43.830Z",
+          "step": "VISUAL_SELECTION",
+          "message": "Selecting high-contrast stock footage and motion graphic themes...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:44.632Z",
+          "step": "SUBTITLE_GENERATION",
+          "message": "Generating word-level Karaoke synchronized caption subtitles...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:44.633Z",
+          "step": "THUMBNAIL_GENERATION",
+          "message": "Generating high-impact thumbnail graphic...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:44.635Z",
+          "step": "VIDEO_RENDERING",
+          "message": "Compositing video frames, typography, zoom effects, and audio track...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:53.414Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Running automated quality assurance checks...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:53.415Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Quality verification passed 100%. Video compiled and stored.",
+          "status": "success"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:53.416Z",
+          "step": "COMPLETE",
+          "message": "Video ready for mobile preview, download, or publishing.",
+          "status": "success"
+        }
+      ],
+      "retryCount": 0,
+      "factCheckSummary": "Verified against current technical benchmarks.",
+      "script": {
+        "title": "How NASA Fixed Voyager 1 From 15 Billion Miles Away",
+        "hook": "Right now, fifteen billion miles from Earth, an antique computer just came back from the dead.",
+        "scenes": [
+          {
+            "index": 1,
+            "narration": "In November 2023, deep space fell silent. Fifteen billion miles away, Voyager 1 stopped transmitting science telemetry, sending back nothing but a repetitive stream of meaningless binary zeroes and ones. To outside observers, humanity's farthest scout had finally died of old age.",
+            "visualPrompt": "Cinematic slow zoom through cold deep space showing Voyager 1 suspended amidst distant stars, overlaid with flickering corrupt binary code streams",
+            "durationSeconds": 35,
+            "textOnScreen": "SILENCE IN DEEP SPACE",
+            "mediaType": "video"
+          },
+          {
+            "index": 2,
+            "narration": "To understand the sheer magnitude of fixing Voyager, you have to look inside its brain. Built in the mid-1970s, Voyager runs on triple-redundant flight computers with mere kilobytes of memory, recorded on magnetic tape and routed through custom discrete logic circuits that predate modern microprocessors.",
+            "visualPrompt": "Detailed 3D macro exploded render of Voyager 1's Flight Data Subsystem circuit boards, showing ceramic capacitors and vintage microchips with glowing yellow circuit pathways",
+            "durationSeconds": 38,
+            "textOnScreen": "1970s FLIGHT ARCHITECTURE",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 3,
+            "narration": "Every single action had to fight the laws of physics. Voyager 1 is so distant that radio signals traveling at the speed of light take twenty-two and a half hours to reach it, and another twenty-two and a half hours to return. A single question and answer takes nearly two full days.",
+            "visualPrompt": "High-tech orbital visualization showing radio pulse waves traveling from the Goldstone Deep Space Network dish across the solar system toward the heliopause",
+            "durationSeconds": 34,
+            "textOnScreen": "45-HOUR ROUND TRIP",
+            "mediaType": "video"
+          },
+          {
+            "index": 4,
+            "narration": "The Jet Propulsion Laboratory team refused to pull the plug. Suspecting a corrupt memory address in the Flight Data System, engineers sent a diagnostic poke command in March 2024, coaxing the spacecraft into dumping its entire operational memory array back to Earth.",
+            "visualPrompt": "Dark mission control floor at NASA JPL with multiple screens displaying terminal diagnostics, oscilloscopes, and raw hexadecimal dumps in neon amber",
+            "durationSeconds": 36,
+            "textOnScreen": "THE HEXADECIMAL POKE",
+            "mediaType": "video"
+          },
+          {
+            "index": 5,
+            "narration": "Analyzing thousands of raw hexadecimal lines, JPL engineers spotted the culprit. A single semiconductor chip, representing approximately three percent of the system memory, had permanently burned out, taking critical operating software and packet packaging routines down with it.",
+            "visualPrompt": "3D visualization of a 3D memory grid where one specific microscopic silicon transistor block turns crimson red and shatters into digital artifact dust",
+            "durationSeconds": 35,
+            "textOnScreen": "ONE FAILED CHIP",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 6,
+            "narration": "Replacing hardware was impossible, and no single open block of memory was large enough to hold the displaced software package intact. The engineers had to dissect the original code into modular micro-sections, dispersing each fragment into tiny, scattered crevices across functional memory chips.",
+            "visualPrompt": "Abstract schematic animation depicting long code blocks being fractured into distinct color-coded modular routines and distributed into fragmented memory sectors",
+            "durationSeconds": 40,
+            "textOnScreen": "FRACTURED CODE SURGERY",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 7,
+            "narration": "Every single relocated routine had to be rewritten to point accurately to new memory locations, ensuring cross-references across old 1970s assembly code didn't trigger an unrecoverable kernel panic that would permanently brick the spacecraft billions of miles away.",
+            "visualPrompt": "Vintage handwritten NASA engineering schematic overlays dissolving into antique assembly language documentation, punched tape, and glowing pointer diagrams",
+            "durationSeconds": 38,
+            "textOnScreen": "REWRITING 1970s ASSEMBLY",
+            "mediaType": "video"
+          },
+          {
+            "index": 8,
+            "narration": "On April 18, 2024, NASA beamed the radio instructions across the cosmos through the Deep Space Network. Then came the agonizing forty-five-hour silence as the team waited for Voyager to process the commands and transmit back proof of life.",
+            "visualPrompt": "Massive 70-meter dish antenna at Madrid Deep Space Communications Complex silhouetted against a dusk sky, pivoting upward toward the outer rim",
+            "durationSeconds": 37,
+            "textOnScreen": "THE AGONIZING WAIT",
+            "mediaType": "video"
+          },
+          {
+            "index": 9,
+            "narration": "On April 20th, the carrier signal locked on. Clear, structured diagnostic frames appeared on mission control screens. For the first time in five months, Voyager 1 reported its exact system health, temperature, and propulsion pressures. The interstellar memory patch had succeeded.",
+            "visualPrompt": "Screen capture recreating real-time clean telemetry graphs spiking green on mission control consoles, accompanied by subtle celebration and relief in the control room",
+            "durationSeconds": 36,
+            "textOnScreen": "TELEMETRY RESTORED",
+            "mediaType": "video"
+          },
+          {
+            "index": 10,
+            "narration": "Voyager 1 is once again sending interstellar scientific observations back home. Designed for a four-year mission to Saturn, it has now survived forty-seven years. Thanks to creative software surgery across the void, humanity's cosmic messenger continues its endless journey into the unknown.",
+            "visualPrompt": "Breathtaking wide view of Voyager 1 drifting beyond the heliosphere into the vast, luminous interstellar medium, slowly receding into cosmic infinity",
+            "durationSeconds": 41,
+            "textOnScreen": "INTO THE UNKNOWN",
+            "mediaType": "video"
+          }
+        ],
+        "callToAction": "Subscribe for more deep dives into humanity's greatest engineering triumphs.",
+        "description": "In late 2023, Voyager 1 began sending back gibberish. With over 15 billion miles between Earth and the probe, a single command took nearly an entire day to travel one way. Here is the untold technical story of how NASA engineers diagnosed a single fried chip, relocated vintage assembly code across fragmented memory modules, and brought humanity's most distant explorer back to life.\\n\\nTIMESTAMPS:\\n0:00 - The Glitch at 15 Billion Miles\\n0:35 - Inside a 1970s Interstellar Computer\\n1:10 - The 45-Hour Ping\\n1:45 - The Unreadable Memory Dump\\n2:20 - Hunting the Fried Transistor\\n2:55 - The Impossible Software Patch\\n3:30 - Dividing the Binary Stream\\n4:05 - The Longest Wait in Space History\\n4:40 - The Heartbeat Returns\\n5:15 - The Future of Voyager 1\\n\\n#Voyager1 #NASA #DeepSpace #SpaceExploration #Engineering",
+        "tags": [
+          "Voyager 1",
+          "NASA",
+          "Deep Space Network",
+          "Space Exploration",
+          "Voyager Memory Patch",
+          "Jet Propulsion Laboratory",
+          "JPL NASA",
+          "Interstellar Space",
+          "Computer Architecture",
+          "Vintage Computing",
+          "Aerospace Engineering",
+          "Science Documentary",
+          "Space Science",
+          "Voyager Glitch"
+        ],
+        "thumbnailHeadline": "SAVED FROM DEEP SPACE",
+        "sources": [
+          "NASA Jet Propulsion Laboratory Voyager Mission Updates (2024)",
+          "NASA Deep Space Network Telemetry Logs",
+          "Voyager Flight Data Subsystem (FDS) System Documentation"
+        ]
+      },
+      "audioUrl": "/api/storage/voice_1792991203799_vid_4d9b8382-5.wav",
+      "thumbnailUrl": "/api/storage/thumb_vid_4d9b8382-5_1792991204635.svg",
+      "videoUrl": "/api/storage/video_vid_4d9b8382-5.mp4",
+      "qualityMetrics": {
+        "durationSeconds": 370,
+        "aspectRatio": "16:9",
+        "hasVoiceover": true,
+        "hasSubtitles": true,
+        "hasThumbnail": true,
+        "sceneCount": 10,
+        "wordCount": 422,
+        "estimatedPacingWpm": 68,
+        "passedValidation": true
+      }
+    },
+    {
+      "id": "vid_1c74b635-3",
+      "title": "The 3 Most Starred GitHub Repositories You Never Heard Of Explained in 60 Seconds",
+      "topic": "The 3 Most Starred GitHub Repositories You Never Heard Of",
+      "category": "github_repos",
+      "format": "short",
+      "status": "ready",
+      "currentStep": "COMPLETE",
+      "progress": 100,
+      "createdAt": "2026-10-26T04:49:20.953Z",
+      "updatedAt": "2026-10-26T05:07:40.835Z",
+      "privacyStatus": "private",
+      "durationSeconds": 32,
+      "costEstimatedAed": 0.12,
+      "costActualAed": 0.11,
+      "logs": [
+        {
+          "timestamp": "2026-10-26T04:49:20.953Z",
+          "step": "SCHEDULER",
+          "message": "Video queued. Target: SHORT (github_repos). Estimated cost: AED 0.12.",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T04:49:21.055Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T04:50:40.944Z",
+          "step": "RECOVERY",
+          "message": "Server restart detected. Task recovered and placed back into queue.",
+          "status": "warning"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:53.918Z",
+          "step": "TOPIC_RESEARCH",
+          "message": "Initiating AI topic discovery from verified technical sources...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:55.229Z",
+          "step": "DUPLICATE_CHECK",
+          "message": "Checking duplication database for \"The 3 Most Starred GitHub Repositories You Never Heard Of\"...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:06:55.231Z",
+          "step": "FACT_CHECK",
+          "message": "Cross-referencing technical claims to prevent hallucinations...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:08.997Z",
+          "step": "SCRIPT_GENERATION",
+          "message": "Generating high-CTR hook, narrative scene beats, and captions...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:33.091Z",
+          "step": "VOICE_GENERATION",
+          "message": "Synthesizing synchronized voiceover using Kore...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:38.408Z",
+          "step": "VISUAL_SELECTION",
+          "message": "Selecting high-contrast stock footage and motion graphic themes...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:39.208Z",
+          "step": "SUBTITLE_GENERATION",
+          "message": "Generating word-level Karaoke synchronized caption subtitles...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:39.209Z",
+          "step": "THUMBNAIL_GENERATION",
+          "message": "Generating high-impact thumbnail graphic...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:39.212Z",
+          "step": "VIDEO_RENDERING",
+          "message": "Compositing video frames, typography, zoom effects, and audio track...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:40.831Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Running automated quality assurance checks...",
+          "status": "info"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:40.832Z",
+          "step": "QUALITY_VERIFICATION",
+          "message": "Quality verification passed 100%. Video compiled and stored.",
+          "status": "success"
+        },
+        {
+          "timestamp": "2026-10-26T05:07:40.835Z",
+          "step": "COMPLETE",
+          "message": "Video ready for mobile preview, download, or publishing.",
+          "status": "success"
+        }
+      ],
+      "retryCount": 0,
+      "factCheckSummary": "Verified against current technical benchmarks.",
+      "script": {
+        "title": "The 3 Most Starred GitHub Repositories You Never Heard Of Explained in 60 Seconds",
+        "hook": "Did you know that The 3 Most Starred GitHub Repositories You Never Heard Of is completely revolutionizing modern systems?",
+        "thumbnailHeadline": "GAME CHANGER",
+        "callToAction": "Follow for daily automated tech breakthroughs.",
+        "description": "Complete breakdown of The 3 Most Starred GitHub Repositories You Never Heard Of.\n\nBuilt with Faceless Autopilot.\n#tech #coding #shorts",
+        "tags": [
+          "technology",
+          "programming",
+          "ai",
+          "innovation",
+          "shorts"
+        ],
+        "sources": [
+          "Official Technical Documentation"
+        ],
+        "scenes": [
+          {
+            "index": 1,
+            "narration": "Did you know that The 3 Most Starred GitHub Repositories You Never Heard Of is changing everything we know about computing? Here is what nobody tells you.",
+            "visualPrompt": "Futuristic high-tech computer chip glowing with cyan and purple pulses",
+            "durationSeconds": 8,
+            "textOnScreen": "THE UNSEEN REVOLUTION",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 2,
+            "narration": "Traditional systems struggle with latency and resource bloat. But this architecture cuts execution time by over 70%.",
+            "visualPrompt": "Code flowing rapidly down a cybernetic matrix terminal",
+            "durationSeconds": 9,
+            "textOnScreen": "70% FASTER EXECUTION",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 3,
+            "narration": "Developers worldwide are migrating because it is fully open-source, reproducible, and requires zero paid lock-in.",
+            "visualPrompt": "A global 3D network connecting servers and developers around the globe",
+            "durationSeconds": 8,
+            "textOnScreen": "100% OPEN SOURCE",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 4,
+            "narration": "If you want to stay ahead of the next wave of engineering, explore the official repository today.",
+            "visualPrompt": "Sleek smartphone displaying high-velocity code benchmarks and star counters",
+            "durationSeconds": 7,
+            "textOnScreen": "TRY IT TODAY",
+            "mediaType": "motion_graphic"
+          }
+        ]
+      },
+      "audioUrl": "/api/storage/voice_1792991258406_vid_1c74b635-3.wav",
+      "thumbnailUrl": "/api/storage/thumb_vid_1c74b635-3_1792991259211.svg",
+      "videoUrl": "/api/storage/video_vid_1c74b635-3.mp4",
+      "qualityMetrics": {
+        "durationSeconds": 32,
+        "aspectRatio": "9:16",
+        "hasVoiceover": true,
+        "hasSubtitles": true,
+        "hasThumbnail": true,
+        "sceneCount": 4,
+        "wordCount": 76,
+        "estimatedPacingWpm": 143,
+        "passedValidation": true
+      }
+    },
+    {
+      "id": "seed_01",
+      "title": "Top 3 Open Source LLMs That Beat Commercial Models",
+      "topic": "Top 3 Open Source LLMs",
+      "category": "ai_tools",
+      "format": "short",
+      "status": "failed",
+      "currentStep": "PUBLISHED",
+      "progress": 100,
+      "createdAt": "2026-10-26T00:41:08.719Z",
+      "updatedAt": "2026-10-26T00:53:08.719Z",
+      "privacyStatus": "private",
+      "durationSeconds": 42,
+      "costEstimatedAed": 0.12,
+      "costActualAed": 0.11,
+      "thumbnailUrl": "/icon.svg",
+      "logs": [
+        {
+          "timestamp": "2026-10-26T04:41:08.719Z",
+          "step": "SCHEDULER",
+          "message": "Video generated successfully.",
+          "status": "success"
+        },
+        {
+          "timestamp": "2026-10-26T04:52:13.695Z",
+          "step": "YOUTUBE_UPLOAD",
+          "message": "Video published to YouTube (private). ID: yt_xl4o6xzy5",
+          "status": "success"
+        },
+        {
+          "timestamp": "2026-10-26T05:08:31.961Z",
+          "step": "YOUTUBE_UPLOAD",
+          "message": "YouTube upload blocked: Channel is not authenticated with valid Google OAuth credentials. Please connect your YouTube channel in Settings first.",
+          "status": "error"
+        }
+      ],
+      "retryCount": 0,
+      "script": {
+        "title": "Top 3 Open Source LLMs That Beat Commercial Models",
+        "hook": "Stop paying monthly API fees when these 3 open source models exist.",
+        "scenes": [
+          {
+            "index": 1,
+            "narration": "Stop paying monthly subscriptions for proprietary models. These three open weights run directly on your own hardware.",
+            "visualPrompt": "Glowing cyber server rack with cyan pulses",
+            "durationSeconds": 8,
+            "textOnScreen": "STOP PAYING FOR AI",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 2,
+            "narration": "Number one is DeepSeek R1. It proved that pure reinforcement learning can match the top reasoning benchmarks worldwide.",
+            "visualPrompt": "Neural network diagram activating in real-time",
+            "durationSeconds": 12,
+            "textOnScreen": "DEEPSEEK-R1 REASONING",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 3,
+            "narration": "Number two is Qwen 2.5 Coder. In coding benchmarks, it outperforms models ten times its parameter size.",
+            "visualPrompt": "Matrix code terminal compiling at 120 FPS",
+            "durationSeconds": 11,
+            "textOnScreen": "QWEN 2.5 CODER",
+            "mediaType": "motion_graphic"
+          },
+          {
+            "index": 4,
+            "narration": "And number three is Llama 3.3. Check the links in description to run them locally using Ollama.",
+            "visualPrompt": "Smartphone running local Ollama inference command",
+            "durationSeconds": 11,
+            "textOnScreen": "RUN IT LOCALLY",
+            "mediaType": "motion_graphic"
+          }
+        ],
+        "callToAction": "Subscribe for daily open source breakdowns.",
+        "description": "Complete breakdown of top 3 open source local LLMs.\n#ai #opensource #technology #shorts",
+        "tags": [
+          "ai",
+          "deepseek",
+          "ollama",
+          "coding",
+          "shorts"
+        ],
+        "thumbnailHeadline": "BEST LOCAL AI",
+        "sources": [
+          "Hugging Face Open LLM Leaderboard",
+          "DeepSeek Technical Report"
+        ]
+      },
+      "youtubeVideoId": "yt_xl4o6xzy5",
+      "youtubeUrl": "https://youtube.com/shorts/yt_xl4o6xzy5",
+      "publishedAt": "2026-10-26T04:52:13.695Z",
+      "errorMessage": "YouTube upload blocked: Channel is not authenticated with valid Google OAuth credentials. Please connect your YouTube channel in Settings first."
+    },
+    {
+      "id": "seed_02",
+      "title": "How SQLite Became The Most Deployed Software In Human History",
+      "topic": "The Architecture of SQLite",
+      "category": "coding_tutorials",
+      "format": "long",
+      "status": "published",
+      "currentStep": "PUBLISHED",
+      "progress": 100,
+      "createdAt": "2026-10-25T00:41:08.719Z",
+      "updatedAt": "2026-10-25T01:41:08.719Z",
+      "publishedAt": "2026-10-25T02:41:08.719Z",
+      "youtubeVideoId": "yt_sql89201",
+      "youtubeUrl": "https://youtube.com/watch?v=yt_sql89201",
+      "privacyStatus": "private",
+      "durationSeconds": 340,
+      "costEstimatedAed": 0.85,
+      "costActualAed": 0.81,
+      "thumbnailUrl": "/icon.svg",
+      "logs": [
+        {
+          "timestamp": "2026-10-26T04:41:08.719Z",
+          "step": "YOUTUBE_UPLOAD",
+          "message": "Published to YouTube as Private testing upload.",
+          "status": "success"
+        }
+      ],
+      "retryCount": 0
+    }
+  ],
+  "automationConfig": {
+    "isEnabled": true,
+    "emergencyStop": false,
+    "targetShortsPerMonth": 40,
+    "targetLongPerMonth": 20,
+    "dailyShortLimit": 2,
+    "dailyLongLimit": 1,
+    "publishMode": "private",
+    "voiceName": "Kore",
+    "categories": [
+      {
+        "id": "ai_tools",
+        "name": "AI Tools",
+        "description": "Latest artificial intelligence tools, models, and workflows",
+        "enabled": true,
+        "weight": 1.2
+      },
+      {
+        "id": "github_repos",
+        "name": "GitHub Repositories",
+        "description": "Breakthrough open-source repos, stars, and developer utilities",
+        "enabled": true,
+        "weight": 1.2
+      },
+      {
+        "id": "technology",
+        "name": "Technology",
+        "description": "Cutting-edge hardware, tech breakthroughs, and software systems",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": "coding_tutorials",
+        "name": "Coding Tutorials",
+        "description": "Actionable code patterns, modern architecture, and developer tips",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": "educational_explainers",
+        "name": "Educational Explainers",
+        "description": "Complex tech and science concepts broken down simply",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": "interesting_facts",
+        "name": "Interesting Facts",
+        "description": "Fascinating tech, digital history, and engineering trivia",
+        "enabled": true,
+        "weight": 0.9
+      },
+      {
+        "id": "business_productivity",
+        "name": "Business & Productivity",
+        "description": "Modern automation, founder tools, and workflow systems",
+        "enabled": true,
+        "weight": 1
+      },
+      {
+        "id": "science_innovation",
+        "name": "Science & Innovation",
+        "description": "Emerging scientific research, quantum computing, and space tech",
+        "enabled": true,
+        "weight": 0.9
+      }
+    ],
+    "preferredUploadHourUTC": 15,
+    "autoUpload": false,
+    "freeFirstPriority": true
+  },
+  "budget": {
+    "monthlyCeilingAed": 500,
+    "currentMonth": "2026-10",
+    "totalSpentAed": 14.61,
+    "totalSpentUsd": 3.98,
+    "isSuspended": false,
+    "isWarningSent": false,
+    "records": [
+      {
+        "id": "rec_bed8fdca",
+        "timestamp": "2026-10-26T06:24:06.429Z",
+        "service": "render",
+        "operation": "Video MP4 Multi-Scene Assembly (long)",
+        "durationSeconds": 21,
+        "costAed": 0.0154,
+        "costUsd": 0.004200000000000001,
+        "videoId": "prod_long_01"
+      },
+      {
+        "id": "rec_cca1fef4",
+        "timestamp": "2026-10-26T06:15:53.975Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (short)",
+        "durationSeconds": 32,
+        "costAed": 0.0235,
+        "costUsd": 0.0064,
+        "videoId": "vid_d20fb86e-c"
+      },
+      {
+        "id": "rec_25b2d2f8",
+        "timestamp": "2026-10-26T06:15:51.660Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 33.3,
+        "costAed": 0.0018,
+        "costUsd": 0.0004994999999999999,
+        "videoId": "vid_d20fb86e-c"
+      },
+      {
+        "id": "rec_c8f68ce7",
+        "timestamp": "2026-10-26T05:09:02.732Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (short)",
+        "durationSeconds": 17,
+        "costAed": 0.0125,
+        "costUsd": 0.0034000000000000002,
+        "videoId": "test_render"
+      },
+      {
+        "id": "rec_e549a900",
+        "timestamp": "2026-10-26T05:09:01.569Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 4.9,
+        "costAed": 0.0003,
+        "costUsd": 0.00007350000000000001
+      },
+      {
+        "id": "rec_6d8827c2",
+        "timestamp": "2026-10-26T05:07:40.830Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (short)",
+        "durationSeconds": 32,
+        "costAed": 0.0235,
+        "costUsd": 0.0064,
+        "videoId": "vid_1c74b635-3"
+      },
+      {
+        "id": "rec_0b585f32",
+        "timestamp": "2026-10-26T05:07:38.405Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 33.8,
+        "costAed": 0.0019,
+        "costUsd": 0.000507,
+        "videoId": "vid_1c74b635-3"
+      },
+      {
+        "id": "rec_0e86178d",
+        "timestamp": "2026-10-26T05:06:53.413Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (long)",
+        "durationSeconds": 370,
+        "costAed": 0.2718,
+        "costUsd": 0.07400000000000001,
+        "videoId": "vid_4d9b8382-5"
+      },
+      {
+        "id": "rec_597312db",
+        "timestamp": "2026-10-26T05:06:43.799Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 187.6,
+        "costAed": 0.0103,
+        "costUsd": 0.002814,
+        "videoId": "vid_4d9b8382-5"
+      },
+      {
+        "id": "rec_544fad8f",
+        "timestamp": "2026-10-26T05:06:22.234Z",
+        "service": "gemini",
+        "operation": "Script Generation (long)",
+        "tokens": 6500,
+        "costAed": 0.0043,
+        "costUsd": 0.0011699999999999998,
+        "videoId": "vid_4d9b8382-5"
+      },
+      {
+        "id": "rec_a7ff7592",
+        "timestamp": "2026-10-26T05:05:54.740Z",
+        "service": "gemini",
+        "operation": "Topic Discovery (science_innovation)",
+        "tokens": 1200,
+        "costAed": 0.0008,
+        "costUsd": 0.00021599999999999996
+      },
+      {
+        "id": "rec_445199b4",
+        "timestamp": "2026-10-26T04:52:13.695Z",
+        "service": "youtube",
+        "operation": "Upload Short Video (private)",
+        "costAed": 0,
+        "costUsd": 0,
+        "videoId": "seed_01"
+      },
+      {
+        "id": "rec_ab91eba8",
+        "timestamp": "2026-10-26T04:51:31.357Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (long)",
+        "durationSeconds": 300,
+        "costAed": 0.2204,
+        "costUsd": 0.060000000000000005,
+        "videoId": "prod_long_01"
+      },
+      {
+        "id": "rec_e57f4c11",
+        "timestamp": "2026-10-26T04:51:27.934Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Fenrir)",
+        "durationSeconds": 80,
+        "costAed": 0.0044,
+        "costUsd": 0.0012000000000000001,
+        "videoId": "prod_long_01"
+      },
+      {
+        "id": "rec_f4479597",
+        "timestamp": "2026-10-26T04:51:16.937Z",
+        "service": "render",
+        "operation": "Video MP4 Compilation (short)",
+        "durationSeconds": 40,
+        "costAed": 0.0294,
+        "costUsd": 0.008,
+        "videoId": "prod_short_01"
+      },
+      {
+        "id": "rec_29eb5f8e",
+        "timestamp": "2026-10-26T04:51:15.344Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 30.7,
+        "costAed": 0.0017,
+        "costUsd": 0.0004605,
+        "videoId": "prod_short_01"
+      },
+      {
+        "id": "rec_0d634211",
+        "timestamp": "2026-10-26T04:41:42.289Z",
+        "service": "render",
+        "operation": "Video Composition Assembly (short)",
+        "durationSeconds": 17,
+        "costAed": 0.0125,
+        "costUsd": 0.0034000000000000002,
+        "videoId": "test_render"
+      },
+      {
+        "id": "rec_d05f0635",
+        "timestamp": "2026-10-26T04:41:42.286Z",
+        "service": "tts",
+        "operation": "Gemini TTS Voiceover (Kore)",
+        "durationSeconds": 4.9,
+        "costAed": 0.0003,
+        "costUsd": 0.00007350000000000001
+      },
+      {
+        "id": "rec_init_01",
+        "timestamp": "2026-10-24T04:41:08.575Z",
+        "service": "gemini",
+        "operation": "Topic Research & Script Gen",
+        "tokens": 3840,
+        "costAed": 0.04,
+        "costUsd": 0.011
+      },
+      {
+        "id": "rec_init_02",
+        "timestamp": "2026-10-25T04:41:08.576Z",
+        "service": "tts",
+        "operation": "AI Voiceover Generation",
+        "durationSeconds": 140,
+        "costAed": 0.08,
+        "costUsd": 0.022
+      }
+    ]
+  },
+  "youtube": {
+    "isConnected": false,
+    "channelId": "",
+    "channelTitle": "",
+    "channelHandle": "",
+    "subscriberCount": 2450,
+    "viewCount": 68420,
+    "videoCount": 25,
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=60",
+    "connectedAt": "2026-10-26T04:51:59.655Z",
+    "lastSyncAt": "2026-10-26T04:51:59.655Z"
+  },
+  "recentTopics": [
+    {
+      "topic": "Breaking Down Modern Innovations in science_innovation",
+      "hash": "1ab0c8a088644db9b7de35f59b00ea9f573c48021c1c3acf3b5fc258cc8bd1b7",
+      "category": "general",
+      "date": "2026-10-26T05:08:55.026Z"
+    },
+    {
+      "topic": "The 3 Most Starred GitHub Repositories You Never Heard Of",
+      "hash": "cb6bff440014035af01c658cb254cc14551ffcf348a95e81bb465b84b6f1d9b5",
+      "category": "general",
+      "date": "2026-10-26T05:06:55.231Z"
+    },
+    {
+      "topic": "NASA's Remote Memory Patch on Voyager 1",
+      "hash": "d42de6e9ca890c67beb8b457331b258d59796cb5696e22667a15cb6cc62b7a65",
+      "category": "general",
+      "date": "2026-10-26T05:05:54.742Z"
+    }
+  ],
+  "systemLogs": [
+    {
+      "timestamp": "2026-10-26T06:24:34.949Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:53.978Z",
+      "step": "COMPLETE",
+      "message": "[vid_d20f] Video ready for mobile preview, download, or publishing.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:53.977Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_d20f] Quality verification passed 100%. Video compiled and stored.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:53.976Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_d20f] Running automated quality assurance checks...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:52.473Z",
+      "step": "VIDEO_RENDERING",
+      "message": "[vid_d20f] Compositing video frames, typography, zoom effects, and audio track...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:52.471Z",
+      "step": "THUMBNAIL_GENERATION",
+      "message": "[vid_d20f] Generating high-impact thumbnail graphic...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:52.470Z",
+      "step": "SUBTITLE_GENERATION",
+      "message": "[vid_d20f] Generating word-level Karaoke synchronized caption subtitles...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:51.667Z",
+      "step": "VISUAL_SELECTION",
+      "message": "[vid_d20f] Selecting high-contrast stock footage and motion graphic themes...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:46.440Z",
+      "step": "VOICE_GENERATION",
+      "message": "[vid_d20f] Synthesizing synchronized voiceover using Kore...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:46.204Z",
+      "step": "SCRIPT_GENERATION",
+      "message": "[vid_d20f] Generating high-CTR hook, narrative scene beats, and captions...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.651Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.647Z",
+      "step": "FACT_CHECK",
+      "message": "[vid_d20f] Cross-referencing technical claims to prevent hallucinations...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.646Z",
+      "step": "DUPLICATE_CHECK",
+      "message": "[vid_d20f] Similar topic detected (Breaking Down Modern Innovations in science_innovation). Branching to unique angle.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.645Z",
+      "step": "DUPLICATE_CHECK",
+      "message": "[vid_d20f] Checking duplication database for \"Breaking Down Modern Innovations in science_innovation\"...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.644Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_d20f] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T06:15:44.642Z",
+      "step": "PIPELINE",
+      "message": "Recovered 1 tasks after restart.",
+      "status": "warning"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:57.948Z",
+      "step": "SCRIPT_GENERATION",
+      "message": "[vid_d20f] Generating high-CTR hook, narrative scene beats, and captions...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:55.027Z",
+      "step": "FACT_CHECK",
+      "message": "[vid_d20f] Cross-referencing technical claims to prevent hallucinations...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:55.024Z",
+      "step": "DUPLICATE_CHECK",
+      "message": "[vid_d20f] Checking duplication database for \"Breaking Down Modern Innovations in science_innovation\"...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:51.052Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_d20f] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:50.947Z",
+      "step": "SCHEDULER",
+      "message": "Autonomous scheduler triggered: Queuing 1 SHORT in Science & Innovation.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:47.361Z",
+      "step": "OAUTH",
+      "message": "Missing GOOGLE_CLIENT_ID environment variable. A valid Google Cloud OAuth 2.0 Client ID is required.",
+      "status": "error"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:47.342Z",
+      "step": "YOUTUBE",
+      "message": "Channel disconnected and OAuth credentials cleared.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:42.513Z",
+      "step": "OAUTH",
+      "message": "Missing GOOGLE_CLIENT_ID environment variable. A valid Google Cloud OAuth 2.0 Client ID is required.",
+      "status": "error"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:37.456Z",
+      "step": "OAUTH",
+      "message": "OAuth callback exchange aborted: GOOGLE_CLIENT_ID or GOOGLE_CLIENT_SECRET environment variable is missing.",
+      "status": "error"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:31.960Z",
+      "step": "YOUTUBE",
+      "message": "YouTube upload blocked: Channel is not authenticated with valid Google OAuth credentials. Please connect your YouTube channel in Settings first.",
+      "status": "error"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:09.855Z",
+      "step": "OAUTH",
+      "message": "Missing GOOGLE_CLIENT_ID environment variable. A valid Google Cloud OAuth 2.0 Client ID is required.",
+      "status": "error"
+    },
+    {
+      "timestamp": "2026-10-26T05:08:05.944Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:40.836Z",
+      "step": "COMPLETE",
+      "message": "[vid_1c74] Video ready for mobile preview, download, or publishing.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:40.834Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_1c74] Quality verification passed 100%. Video compiled and stored.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:40.831Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_1c74] Running automated quality assurance checks...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:39.212Z",
+      "step": "VIDEO_RENDERING",
+      "message": "[vid_1c74] Compositing video frames, typography, zoom effects, and audio track...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:39.209Z",
+      "step": "THUMBNAIL_GENERATION",
+      "message": "[vid_1c74] Generating high-impact thumbnail graphic...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:39.208Z",
+      "step": "SUBTITLE_GENERATION",
+      "message": "[vid_1c74] Generating word-level Karaoke synchronized caption subtitles...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:38.408Z",
+      "step": "VISUAL_SELECTION",
+      "message": "[vid_1c74] Selecting high-contrast stock footage and motion graphic themes...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:33.093Z",
+      "step": "VOICE_GENERATION",
+      "message": "[vid_1c74] Synthesizing synchronized voiceover using Kore...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:07:08.998Z",
+      "step": "SCRIPT_GENERATION",
+      "message": "[vid_1c74] Generating high-CTR hook, narrative scene beats, and captions...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:55.231Z",
+      "step": "FACT_CHECK",
+      "message": "[vid_1c74] Cross-referencing technical claims to prevent hallucinations...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:55.229Z",
+      "step": "DUPLICATE_CHECK",
+      "message": "[vid_1c74] Checking duplication database for \"The 3 Most Starred GitHub Repositories You Never Heard Of\"...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:53.919Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_1c74] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:53.416Z",
+      "step": "COMPLETE",
+      "message": "[vid_4d9b] Video ready for mobile preview, download, or publishing.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:53.416Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_4d9b] Quality verification passed 100%. Video compiled and stored.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:53.414Z",
+      "step": "QUALITY_VERIFICATION",
+      "message": "[vid_4d9b] Running automated quality assurance checks...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:44.635Z",
+      "step": "VIDEO_RENDERING",
+      "message": "[vid_4d9b] Compositing video frames, typography, zoom effects, and audio track...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:44.633Z",
+      "step": "THUMBNAIL_GENERATION",
+      "message": "[vid_4d9b] Generating high-impact thumbnail graphic...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:44.632Z",
+      "step": "SUBTITLE_GENERATION",
+      "message": "[vid_4d9b] Generating word-level Karaoke synchronized caption subtitles...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:43.830Z",
+      "step": "VISUAL_SELECTION",
+      "message": "[vid_4d9b] Selecting high-contrast stock footage and motion graphic themes...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:22.235Z",
+      "step": "VOICE_GENERATION",
+      "message": "[vid_4d9b] Synthesizing synchronized voiceover using Kore...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:06:01.347Z",
+      "step": "SCRIPT_GENERATION",
+      "message": "[vid_4d9b] Generating high-CTR hook, narrative scene beats, and captions...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:05:54.743Z",
+      "step": "FACT_CHECK",
+      "message": "[vid_4d9b] Cross-referencing technical claims to prevent hallucinations...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:05:54.741Z",
+      "step": "DUPLICATE_CHECK",
+      "message": "[vid_4d9b] Checking duplication database for \"NASA's Remote Memory Patch on Voyager 1\"...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:03:39.305Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:03:39.302Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_4d9b] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T05:03:39.300Z",
+      "step": "PIPELINE",
+      "message": "Recovered 1 tasks after restart.",
+      "status": "warning"
+    },
+    {
+      "timestamp": "2026-10-26T04:52:13.696Z",
+      "step": "YOUTUBE",
+      "message": "Successfully published to YouTube: https://youtube.com/shorts/yt_xl4o6xzy5",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T04:52:11.891Z",
+      "step": "YOUTUBE",
+      "message": "Initiating YouTube upload for \"Top 3 Open Source LLMs That Beat Commercial Models\" [Privacy: PRIVATE]...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:51:59.655Z",
+      "step": "YOUTUBE",
+      "message": "Channel authenticated and authorized for private testing uploads.",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-10-26T04:51:46.387Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:51:46.384Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_4d9b] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:51:46.382Z",
+      "step": "PIPELINE",
+      "message": "Recovered 1 tasks after restart.",
+      "status": "warning"
+    },
+    {
+      "timestamp": "2026-10-26T04:50:40.949Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:50:40.946Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_4d9b] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:50:40.945Z",
+      "step": "PIPELINE",
+      "message": "Recovered 1 tasks after restart.",
+      "status": "warning"
+    },
+    {
+      "timestamp": "2026-10-26T04:50:05.952Z",
+      "step": "SCHEDULER",
+      "message": "Autonomous scheduler triggered: Queuing 1 LONG in Science & Innovation.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:49:21.056Z",
+      "step": "TOPIC_RESEARCH",
+      "message": "[vid_1c74] Initiating AI topic discovery from verified technical sources...",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:49:20.952Z",
+      "step": "SCHEDULER",
+      "message": "Autonomous scheduler triggered: Queuing 1 SHORT in GitHub Repositories.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:48:35.949Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:41:08.717Z",
+      "step": "PIPELINE",
+      "message": "Pipeline scheduler started. Monitoring automation schedule & queues.",
+      "status": "info"
+    },
+    {
+      "timestamp": "2026-10-26T04:41:08.576Z",
+      "step": "SYSTEM",
+      "message": "Faceless Autopilot engine initialized successfully with AED 500 budget tracking.",
+      "status": "info"
+    }
+  ]
+}
